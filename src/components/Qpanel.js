@@ -1,12 +1,12 @@
 import React from 'react'
+import Card from "./Card"
 
 function Qpanel() {
   return (
-    <div className='pt-24 pl-10'>
-        <div className='box-border m-0 p-0'>
-            <h4 className='flex-col items-center justify-center h-96 w-64 bg-cyan-500'>Qpanel</h4>
-        </div>
+    <div className="box-border pt-12 flex-col items-center justify-center font-bold text-white w-80">
+          <Card />
     </div>
+    
   )
 }
 
